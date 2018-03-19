@@ -14,4 +14,4 @@ EXPOSE 3000
 
 # ENV NODE_PATH .
 
-# CMD ["npm", "start"]
+CMD ["npm", "start"]
