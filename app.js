@@ -10,6 +10,8 @@ const config = require('./config');
 // 创建一个 express 实例
 const app = express();
 
+console.log(`process.env:${process.env}`)
+
 // 添加会话中间件，登录地址是 /login
 app.use(waferSession({ 
     appId: config.appId, 
