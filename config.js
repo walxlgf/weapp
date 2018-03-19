@@ -8,9 +8,9 @@ module.exports = {
 
     // mongodb 连接配置，生产环境请使用更复杂的用户名密码
     // mongoHost: '127.0.0.1', 
-    mongoHost: 'mongodb', 
-    mongoPort: '27017', 
-    mongoUser: 'weapp', 
-    mongoPass: 'weapp-dev', 
-    mongoDb: 'weapp'
+    mongoHost:'mongodb', 
+    mongoPort:'27017', 
+    mongoUser:'weapp', 
+    mongoPass:'weapp-dev', 
+    mongoDb:'weapp'
 };
