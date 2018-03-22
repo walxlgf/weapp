@@ -9,6 +9,8 @@ enum GameChoice {
 }
 */
 
+
+
 function judge(choice1, choice2) {
     // 和局
     if (choice1 == choice2) return 0;
