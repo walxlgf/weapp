@@ -10,7 +10,8 @@ WORKDIR ${SERVER}
 RUN npm install
 
 EXPOSE 3000
-# COPY . .
+
+COPY . .
 
 # ENV NODE_PATH .
 
