@@ -1,5 +1,6 @@
 const EventEmitter = require('events');
 
+
 /**
  * 封装 WebSocket 信道
  */
